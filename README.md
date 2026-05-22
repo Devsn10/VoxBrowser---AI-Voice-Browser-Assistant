@@ -124,16 +124,6 @@ This project heavily utilizes **Google Gemini AI** for:
 📄 License
 
 This project is developed as part of the AIEM × SOLO Hackathon 2026.
-
-How to use:
-
-1. Create the repository with the name `VoxBrowser-AIEM-Hackathon-2026`
-2. Set the description I gave above
-3. Add the README.md file with the content above
-4. Replace `yourusername` and team details accordingly
-
-Would you like me to also create:
-- A professional `commands-list.md` file?
 - A sample `index.html` structure?
 - A good `.gitignore` file?
 
