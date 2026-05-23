@@ -12,9 +12,18 @@ View your app in AI Studio: https://ai.studio/apps/18e2cd70-762e-4bba-b2fa-b3274
 
 **Prerequisites:**  Node.js
 
-
 1. Install dependencies:
    `npm install`
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Documentation
+
+This repository includes dedicated documentation files for evaluation:
+
+- [Project Structure](docs/PROJECT_STRUCTURE.md)
+- [Setup Instructions](docs/SETUP_INSTRUCTIONS.md)
+- [Implementation Details](docs/IMPLEMENTATION_DETAILS.md)
+- [Final Working Updates](docs/FINAL_WORKING_UPDATES.md)
+- [Evaluation Guide](docs/EVALUATION_GUIDE.md)
