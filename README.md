@@ -1,41 +1,20 @@
-# VoxBrowser - AI Voice Browser Assistant
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-**AIEM × SOLO Open Innovation Hackathon 2026**  
-**Domain:** AI Automation
+# Run and deploy your AI Studio app
 
-## 📋 Project Overview
-VoxBrowser is a voice-powered AI assistant that allows users to control and navigate the web using natural voice commands. Built to automate browser interactions, reduce manual effort, and improve productivity.
+This contains everything you need to run your app locally.
 
-## ✨ Key Features
-- Voice command navigation (open website, go back, refresh, etc.)
-- Smart search with voice
-- Tab management using voice
-- AI-powered page summarization
-- Hands-free browsing experience
-- Real-time voice recognition
+View your app in AI Studio: https://ai.studio/apps/18e2cd70-762e-4bba-b2fa-b327438e5232
 
-## 🛠 Tech Stack
-- **Frontend:** HTML, CSS, JavaScript
-- **AI:** Google Gemini (via AI Studio)
-- **Voice:** Web Speech API
-- **IDE:** Antigravity
-- **UI Generation:** Google Stitch
+## Run Locally
 
-## 🚀 Setup Instructions
+**Prerequisites:**  Node.js
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Devsn10/VoxBrowser---AI-Voice-Browser-Assistant.git
 
-Open index.html in Chrome (recommended).
-Allow microphone permission when prompted.
-
-📁 Project Structure
-textVoxBrowser/
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-└── assets/
-Demo
-(Will be added after development)
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
