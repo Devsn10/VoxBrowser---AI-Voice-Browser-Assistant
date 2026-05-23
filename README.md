@@ -1,12 +1,12 @@
 # Project Title
 
 ## Team Name
-VoxBrowser Team
+Team_Hustlers
 
 ## Team Members
-- Member 1 Name
-- Member 2 Name
-- Member 3 Name
+- Member 1 : Diwyesh Nerkar
+- Member 2 : Saish Chandroji
+
 
 ## Selected Domain
 AI Automation
