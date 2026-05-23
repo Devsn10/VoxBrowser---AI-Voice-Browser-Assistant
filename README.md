@@ -1,27 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Project Title
 
-# Run and deploy your AI Studio app
+## Team Name
+VoxBrowser Team
 
-This contains everything you need to run your app locally.
+## Team Members
+- Member 1 Name
+- Member 2 Name
+- Member 3 Name
 
-View your app in AI Studio: https://ai.studio/apps/18e2cd70-762e-4bba-b2fa-b327438e5232
+## Selected Domain
+AI Automation
 
-## Run Locally
+## Problem Statement
+Manual web browsing is inefficient for users who want to interact with websites and access information without typing or clicking. Current browsing workflows are slow for hands-free users and do not leverage voice interaction to improve productivity.
 
-**Prerequisites:**  Node.js
+## Solution
+VoxBrowser provides a voice-powered AI browser assistant that lets users navigate the web, manage browsing sessions, and summarize content using natural speech commands. The app combines voice interaction, session history, and AI summarization in a modern React-based interface.
 
+## Tech Stack Used
+- React 19, Vite, TypeScript
+- Node.js, Express
+- Tailwind CSS, Lucide React
+- Gemini, Google AI Studio integration
+
+## AI Tools Used
+- Google Gemini via `@google/genai`
+- AI Studio app hosting reference
+
+## Features
+- Voice-enabled browsing assistant interface
+- Demo sign-in and sign-up flow
+- Session history management with add/delete support
+- Gemini-powered transcription summarization endpoint
+- Dark mode and user settings panel
+
+## How to Run the Project
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Create an `.env.local` file and set:
+   `GEMINI_API_KEY=your_gemini_api_key_here`
+3. Run the development server:
    `npm run dev`
+4. Open the app in your browser at:
+   `http://localhost:3000`
 
-## Documentation
-
-This repository includes dedicated documentation files for evaluation:
-
+## Additional Documentation
+This repository also includes the following documentation files:
 - [Project Structure](docs/PROJECT_STRUCTURE.md)
 - [Setup Instructions](docs/SETUP_INSTRUCTIONS.md)
 - [Implementation Details](docs/IMPLEMENTATION_DETAILS.md)
